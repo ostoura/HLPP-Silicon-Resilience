@@ -20,8 +20,12 @@ This repository contains verified implementations for three distinct SoC familie
 - **Resilience:** Functions without NAND, Touch Screen, or initialized OS.
 
 ## 📺 Video Proof
-[![HLPP Protocol Demonstration](https://img.youtube.com/vi/Ew01gYekgQI/2.jpg)](https://www.youtube.com/watch?v=Ew01gYekgQI)
-*Click the image to watch the HLPP Protocol in action.*
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=Ew01gYekgQI">
+    <img src="https://i.ytimg.com/vi/Ew01gYekgQI/2.jpg" alt="HLPP Protocol Demo" width="600">
+    <p><b>🎥 Watch the HLPP Silicon Immortality Demonstration</b></p>
+  </a>
+</div>
 
 ## 🏛 International Standard Proposal (ISO Proposal)
 This project is prepared for submission to the **ITU-T Study Group 5** as a proposed standard for future SoC manufacturing. The goal is to mandate an "Elite Sustainability" fallback in all silicon design to meet global circular economy goals.
