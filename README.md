@@ -30,6 +30,23 @@ This repository contains verified implementations for three distinct SoC familie
 ## 🏛 International Standard Proposal (ISO Proposal)
 This project is prepared for submission to the **ITU-T Study Group 5** as a proposed standard for future SoC manufacturing. The goal is to mandate an "Elite Sustainability" fallback in all silicon design to meet global circular economy goals.
 
+### 💾 Installation & Flashing
+To test the HLPP implementation, download the appropriate image from the [Releases](link-to-your-release) section.
+
+**Warning:** The `dd` command is powerful. Ensure you have selected the correct disk number to avoid data loss on your host machine.
+
+1. Format your SDMMC Card and identify the disk number:
+   ```bash
+   diskutil list
+
+2. Flash the image using the following command:
+   ```bash
+   sudo dd if=NAME_OF_IMAGE.img of=/dev/SDMMC_CARD_DISK_NUMBER bs=4M status=progress
+
+Examples:
+  ```bash
+  sudo dd if=clock_AW.img of=/dev/disk12 bs=4M status=progress
+```
 ---
 © 2026 Ahmed Sayed Mohamed Elbermawy. Licensed under GPL-3.0.
 
