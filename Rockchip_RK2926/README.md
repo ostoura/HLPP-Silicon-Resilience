@@ -9,6 +9,6 @@ This folder contains the implementation for the Rockchip RK2926 SoC, tested on t
 - **Resilience:** Operates effectively even in cases of total NAND corruption where the device appears "dead" to standard recovery tools.
 
 ### Instructions:
-1. Download `clock_TM.img` from the Releases section.
+1. Download `clock_RK.img` from the Releases section.
 2. Flash to SD card using the `dd` command.
 3. Insert SD card. This tablet may require a "Power + Volume" combination to trigger the bootloader injection if the MaskROM is not automatically defaulting to SD.
