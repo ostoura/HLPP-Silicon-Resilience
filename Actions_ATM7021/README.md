@@ -9,6 +9,6 @@ This folder contains the implementation for the Actions Semiconductor ATM7021 So
 - **Resilience:** Specifically designed for the "Actions Logo Loop" failure, providing a stable utility state when the Android system fails to initialize.
 
 ### Instructions:
-1. Download `clock_Zentality.img` from the Releases section.
+1. Download `clock_TM.img` from the Releases section.
 2. Flash to SD card using the `dd` command.
 3. Power on the device. The protocol will intercept the boot sequence and load the clock assets into the internal RAM.
