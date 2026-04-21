@@ -9,6 +9,6 @@ This folder contains the implementation for the Allwinner A13 SoC, tested on the
 - **Resilience:** Successfully bypasses the signature check on failed NAND blocks to initialize the clock utility.
 
 ### Instructions:
-1. Download `clock_A13.img` from the Releases section.
+1. Download `clock_AW.img` from the Releases section.
 2. Flash to SD card using the `dd` command provided in the main README.
 3. Insert SD card and power on. If NAND is failed, the SoC will default to the SDMMC bootloader and trigger the HLPP clock.
