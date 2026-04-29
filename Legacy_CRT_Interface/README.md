@@ -10,7 +10,8 @@ This project demonstrates the "Universal" nature of the HLPP protocol. By bit-ba
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=hc7ue-cmpGg">
-    <img src="https://img.youtube.com/vi/hc7ue-cmpGg/2.jpg" alt="Vintage TV Clock Demo" width="500">
+    <img src="https://img.youtube.com/vi/hc7ue-cmpGg/maxresdefault.jpg" alt="Vintage TV Clock Demo" width="600">
+    <img src="https://img.youtube.com/vi/hc7ue-cmpGg/2.jpg" alt="Parallel Port To Composite A/V" width="600">
     <p><b>🎥 Watch: Rescuing a 1980s CRT with Modern Logic</b></p>
   </a>
 </div>
